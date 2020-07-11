@@ -605,14 +605,13 @@ h1, h2, h3, h4, h5,
   .intro-section, .intro-section .container .row {
     height: 100vh;
     min-height: 900px; }
-    .intro-section:before {
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 70%;
-        background: #660019F;
-        border-bottom-right-radius: 0px;
-    }
+  .intro-section:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    background: #DC3F2E;
+    border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .intro-section:before {
         width: 100%; } }
