@@ -649,6 +649,10 @@ h1, h2, h3, h4, h5,
   border-color: #660019;
   padding: 10px 20px; }
 
+#changeColor {
+    border-color: #660019;
+}
+
 .cta a:hover span {
   background: #660019;
   color: #fff; }
