@@ -872,3 +872,12 @@ h1, h2, h3, h4, h5,
     color: #7A001F;
     font-size: 80px;
 }
+
+.lnr-cloud-check, .lnr-bold, .lnr-laptop-phone, .lnr-database, .lnr-bug, .lnr-pie-chart, .lnr-link {
+    color: #660019;
+    font-size: 40px;
+}
+
+.lnr-bug, .lnr-pie-chart, .lnr-link {
+    font-size: 60px;
+}
