@@ -862,3 +862,13 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .service {
       padding: 2rem; } }
+
+.lnr-bicycle {
+    color: #7A001F;
+    font-size: 40px;
+}
+
+.lnr-chevron-down {
+    color: #7A001F;
+    font-size: 80px;
+}
