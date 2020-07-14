@@ -873,11 +873,15 @@ h1, h2, h3, h4, h5,
     font-size: 80px;
 }
 
-.lnr-cloud-check, .lnr-bold, .lnr-laptop-phone, .lnr-database, .lnr-bug, .lnr-pie-chart, .lnr-link {
+.lnr-cloud-check, .lnr-bold, .lnr-laptop-phone, .lnr-database {
     color: #660019;
-    font-size: 60px;
 }
 
 .lnr-bug, .lnr-pie-chart, .lnr-link {
-    font-size: 60px;
+    color: #660019;
+  /*  font-size: 60px;*/
+}
+
+.counter .icon-wrap > span {
+    font-size: 55px;
 }
