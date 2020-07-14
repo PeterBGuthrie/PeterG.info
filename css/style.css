@@ -691,8 +691,8 @@ h1, h2, h3, h4, h5,
 .counter .counter-text strong {
   line-height: .5;
   font-size: 2rem;
-  display: block;
-  font-weight: 400;
+  /*display: block;*/
+  font-weight: 700;
   color: #000;
   margin-bottom: 1rem; }
 
@@ -875,7 +875,7 @@ h1, h2, h3, h4, h5,
 
 .lnr-cloud-check, .lnr-bold, .lnr-laptop-phone, .lnr-database, .lnr-bug, .lnr-pie-chart, .lnr-link {
     color: #660019;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .lnr-bug, .lnr-pie-chart, .lnr-link {
