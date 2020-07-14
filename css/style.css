@@ -665,7 +665,7 @@ h1, h2, h3, h4, h5,
 
 .section-sub-title {
   color: #660019;
-  text-transform: uppercase;
+ /* text-transform: uppercase; */
   font-size: .7rem;
   font-weight: 900;
   display: block;
@@ -877,7 +877,7 @@ h1, h2, h3, h4, h5,
     color: #660019;
 }
 
-.lnr-bug, .lnr-pie-chart, .lnr-link {
+.lnr-bug, .lnr-pie-chart, .lnr-link, .lnr-layers, .lnr-apartment, .lnr-leaf, .lnr-home, .lnr-graduation-hat {
     color: #660019;
     font-size: 60px;
 }
