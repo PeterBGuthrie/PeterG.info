@@ -885,3 +885,7 @@ h1, h2, h3, h4, h5,
 .counter .icon-wrap > span {
     font-size: 55px;
 }
+
+#btnGroupDrop1:hover {
+    background-color: #660019 !important;
+}
