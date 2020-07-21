@@ -98,10 +98,14 @@
     <Content Include="images\person_3.jpg" />
     <Content Include="images\person_4.jpg" />
     <Content Include="images\peterg.jpg" />
+    <Content Include="images\peterggrey.jpg" />
     <Content Include="images\slide_1.jpg" />
     <Content Include="images\slide_2.jpg" />
     <Content Include="images\slide_3.jpg" />
     <Content Include="images\slide_4.jpg" />
+    <Content Include="images\snail.jpg" />
+    <Content Include="images\stairss.jpg" />
+    <Content Include="images\Treesgrey.jpg" />
     <Content Include="index.html" />
     <Content Include="js\aos.js" />
     <Content Include="js\bootstrap-datepicker.min.js" />

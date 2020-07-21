@@ -886,6 +886,12 @@ h1, h2, h3, h4, h5,
     font-size: 55px;
 }
 
-#btnGroupDrop1:hover {
+#btnGroupDrop1, #btnGroupDrop1 a:visited, #btnGroupDrop1 a:active {
+    color: #660019 !important;
+    border-color: #660019 !important;
+}
+
+#btnGroupDrop1:hover, #btnGroupDrop1:visited {
     background-color: #660019 !important;
+    color: #ffffff !important;
 }
