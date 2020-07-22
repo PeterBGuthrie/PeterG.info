@@ -899,10 +899,12 @@ h1, h2, h3, h4, h5,
 #contactlinks a {
     color: black;
     font-weight: 600;
+    text-decoration: underline;
 }
 
 #contactlinks a:hover {
     color: #660019;
+    text-decoration: none;
 }
 .linksicons {
     color:#660019;
