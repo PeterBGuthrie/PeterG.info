@@ -915,12 +915,12 @@ h1, h2, h3, h4, h5,
     white-space: pre;
 }
 
-#btnsubmit :hover {
+#btnsubmit a:hover, #btnsubmit a:active {
     background-color: #660019 !important;
-    color: #ffffff !important;
+    color: black !important;
 }
 
-#btnsubmit {
+#btnsubmit a:link, #btnsubmit a:visited {
     color: #660019 !important;
     border-color: #660019 !important;
 }
