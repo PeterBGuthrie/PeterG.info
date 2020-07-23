@@ -549,29 +549,37 @@
     </form>-->
 
                           <form name="contact" method="POST" data-netlify="true">
-                              <p>
-                                  <label>Your Name: <input type="text" name="name" /></label>
-                              </p>
-                              <p>
-                                  <label>Your Email: <input type="email" name="email" /></label>
-                              </p>
-                              <p>
-                                  <label>
-                                      Your Role: <select name="role[]" multiple>
-                                          <option value="leader">Leader</option>
-                                          <option value="follower">Follower</option>
-                                      </select>
-                                  </label>
-                              </p>
-                              <p>
-                                  <label>Message: <textarea name="message"></textarea></label>
-                              </p>
-                              <p>
-                                  <div data-netlify-recaptcha="true"></div>
-                              </p>
-                              <p>
-                                  <button type="submit">Send</button>
-                              </p>
+                              <div class="container">
+                                  <div class="form-group row">
+                                      <div class="col-md-6 mb-3 mb-lg-0">
+                                          <input class="form-control" type="text" name="name" placeholder="Your First name:" />
+                                      </div>
+                                      <div class="col-md-6">
+                                          <input class="form-control" type="text" name="name" placeholder="Your Last name:" />
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                     <div class="col">
+                                         <input class="form-control" type="email" name="email" placeholder="Subject" />
+                                     </div>
+                                  </div>
+                                  <div class="form-group row">
+                                      <div class="col">
+                                          <input class="form-control" type="email" name="email" placeholder="Email" />
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                     <div class="col-md-12">
+                                         <textarea class="form-control" cols="30" rows="10" name="message" placeholder="Please write your message here."></textarea>
+                                     </div>
+                                     <div>
+                                         <div data-netlify-recaptcha="true"></div>
+                                     </div>
+                                  </div>
+                                  <div>
+                                      <button id="btnsubmit" class="rounded border btn-outline-dark btn-block" type="submit">Send</button>
+                                  </div>
+                              </div>
                           </form>
                       </div>
                   </div>

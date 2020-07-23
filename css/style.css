@@ -914,3 +914,13 @@ h1, h2, h3, h4, h5,
 #contactlinks li {
     white-space: pre;
 }
+
+#btnsubmit :hover {
+    background-color: #660019 !important;
+    color: #ffffff !important;
+}
+
+#btnsubmit {
+    color: #660019 !important;
+    border-color: #660019 !important;
+}
