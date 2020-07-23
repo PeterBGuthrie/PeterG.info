@@ -661,7 +661,7 @@ h1, h2, h3, h4, h5,
   border-bottom: none; }
   .cta a.active > span {
     background-color: #660019;
-    color: #fff; }
+    color: #fff;}
 
 .section-sub-title {
   color: #660019;
@@ -921,7 +921,12 @@ h1, h2, h3, h4, h5,
     border-color: #660019 !important;
 }
 
-    #btnsubmit:hover, #btnsubmit:visited {
-        background-color: #660019 !important;
-        color: #ffffff !important;
-    }
+#btnsubmit:hover, #btnsubmit:visited, #btncontact:hover, #btncontact:visited, #btncontact:active {
+    background-color: #660019 !important;
+    color: #ffffff !important;
+}
+
+#btncontact:link, #btncontact {
+    color: #660019 !important;
+    border-color: #660019 !important;
+}
