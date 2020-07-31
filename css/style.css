@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5,
   .select-wrap select, .wrap-icon select {
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none;
+   /* appearance: none;*/
     width: 100%; }
 
 /* Navbar */
