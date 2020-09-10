@@ -863,7 +863,7 @@ h1, h2, h3, h4, h5,
     .service {
       padding: 2rem; } }
 
-.lnr-bicycle {
+.lnr-bicycle, .lnr-sun {
     color: #fff;
     font-size: 40px;
 }
@@ -873,7 +873,7 @@ h1, h2, h3, h4, h5,
     font-size: 80px;
 }
 
-.lnr-cloud-check, .lnr-bold, .lnr-laptop-phone, .lnr-database {
+.lnr-cloud-check, .lnr-bold, .lnr-laptop-phone, .lnr-database, .lnr-pencil {
     color: #660019;
 }
 
@@ -921,16 +921,20 @@ h1, h2, h3, h4, h5,
     border-color: #660019 !important;
 }
 
-#btnsubmit:hover, #btnsubmit:visited, #btncontact:hover, #btncontact:visited, #btncontact:active {
+#btnsubmit:hover, #btnsubmit:visited, #btncontact:hover, #btncontact:visited, #btncontact:active, #btncard:hover {
     background-color: #660019 !important;
     color: #ffffff !important;
 }
 
-#btncontact:link, #btncontact {
+#btncontact:link, #btncontact, #btncard {
     color: #660019 !important;
     border-color: #660019 !important;
 }
 
 .namecolor {
     color: #7A001F;
+}
+
+#Inlinelinks {
+    color: #660019 !important;
 }
