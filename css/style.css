@@ -938,3 +938,7 @@ h1, h2, h3, h4, h5,
 #Inlinelinks {
     color: #660019 !important;
 }
+
+#Owl-Height {
+    max-height: 1300px !important;
+}
