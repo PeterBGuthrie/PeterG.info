@@ -940,5 +940,6 @@ h1, h2, h3, h4, h5,
 }
 
 #Owl-Height {
+    min-height: 1300px !important;
     max-height: 1300px !important;
 }
